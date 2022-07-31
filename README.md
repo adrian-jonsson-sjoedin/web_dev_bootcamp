@@ -1,0 +1,2 @@
+# The Web Developer Bootcamp course
+This repo contains all the files, folders and project created by me when taking the course [The Web Developer Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/) by Colt Steel 
