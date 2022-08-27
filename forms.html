@@ -9,6 +9,7 @@
 
   <body>
     <h1>Forms Demo</h1>
+    <h2>Demo Form 1</h2>
     <form action="/tacos">
       <p>
         <label for="username">Enter a username:</label>
@@ -40,6 +41,7 @@
     </form>
     <!-- Outside of form, no default behavior -->
     <button>Not inside form</button>
+
     <h2>Hijacking Searches</h2>
     <h3>Search Reddit</h3>
     <!-- form that searches reddit -->
@@ -58,6 +60,19 @@
     <form action="https://youtube.com/results">
       <input type="text" name="search_query" />
       <button>Search youtube</button>
+    </form>
+
+    <h2>More Input options</h2>
+    <form action="/birds">
+      <input type="checkbox" name="agree_toc" id="agree" />
+      <label for="agree">I Agree to everything</label>
+      <p>
+        <!--Value is what will be submitted on submit-->
+        <input type="radio" name="size" id="s" value="small" /><label for="s">Size S</label>
+        <input type="radio" name="size" id="m" value="medium" /><label for="m">Size M</label>
+        <input type="radio" name="size" id="l" value="large" /><label for="l">Size L</label>
+      </p>
+      <button>Submit</button>
     </form>
   </body>
 </html>
