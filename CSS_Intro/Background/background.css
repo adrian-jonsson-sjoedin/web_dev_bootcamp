@@ -1,0 +1,18 @@
+section {
+  width: 80%;
+  height: 800px;
+  background-color: blueviolet;
+  margin: 0 auto;
+  /* background-image: url("https://images.unsplash.com/photo-1669447629973-a4330933aec6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2187&q=80"); */
+  /* background-size: contain; */
+  /* background-size: cover; */
+  /* background-position: top; */
+  background: center/cover
+    url("https://images.unsplash.com/photo-1669447629973-a4330933aec6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2187&q=80");
+  /* Any sizing conditions must follow directly after the position condition preceded with a slash */
+  /* the order where you put these in the background shorthand however is irrelevant  */
+}
+h1 {
+  font-size: 100px;
+  color: white;
+}

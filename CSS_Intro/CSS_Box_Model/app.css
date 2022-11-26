@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+div {
+  width: 200px;
+  height: 200px;
+  background-color: #fb8500;
+}
+h1 {
+  background-color: blueviolet;
+  width: 100px;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+#one {
+  background-color: blanchedalmond;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  /* box-sizing: border-box; */
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+#two {
+  background-color: aqua;
+  border-color: #cdb4db;
+  border-width: 3px;
+  border-style: dashed;
+  border-left-color: #fb8500;
+  border-left-width: 8px;
+  padding-right: 50px;
+}
+#three {
+  background-color: aquamarine;
+  /* border: width style color */
+  border: 4px dotted red;
+  border-right-style: solid;
+  border-radius: 10% 21%;
+}
+button {
+  /* padding is shorthand for the different padding options */
+  /* vertical | horizontal */
+  padding: 0 20px;
+  /* top | right | bottom | left */
+  /* clockwise */
+  padding: 5px 1px 0 2px;
+}
